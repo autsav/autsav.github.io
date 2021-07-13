@@ -12,10 +12,19 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-cara`,
-      // See the theme's README for all available options
-      options: {},
-    },
+   // In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-source-github-api`,
+    options: {
+      token: "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",
+      variables: {
+        q: "author:ldd state:closed type:pr sort:comments",
+        nFirst: 2
+      }
+    }
+  }
+],
     googleAnalyticsTrackingId && {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
