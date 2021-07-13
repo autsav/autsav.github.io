@@ -59,5 +59,5 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-    pathPrefix: "/autsav.github.io",
+    pathPrefix: "",
 }
