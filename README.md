@@ -2,7 +2,7 @@
 
 My personal portfolio site — an animated single-page portfolio built with Gatsby.
 
-🔗 **Live:** [autsav.github.io](https://autsav.github.io)
+🔗 **Live:** [utsabadhikari.com.np](https://utsabadhikari.com.np) (also at [autsav.github.io](https://autsav.github.io))
 
 ## Built with
 
